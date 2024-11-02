@@ -1,0 +1,55 @@
+:root {
+    --background: #FFC600;
+    --shadowColor: #ff0000;
+    --bgBlend: normal;
+}
+
+:root[class="dark"]{
+    --background: #4c3e0b;
+    --shadowColor: #ff0000;
+    --bgBlend: exclusion;
+}
+
+#homePhoto {
+    float: right;
+    width: 35%;
+    margin-left: 2vh;
+}
+
+#arrow {
+   width: fit-content;
+   margin: auto;
+}
+
+#cambridge {
+    width: 100px;
+}
+
+#cisco {
+    width: 100px;
+}
+
+#cotemig {
+    width: 110px;
+    margin-right:10px;
+}
+
+#programGrid div {
+    width:unset
+}
+
+@media screen and (max-width: 655px) {
+
+#cambridge {
+    grid-row: 2;
+}
+
+#cisco {
+    grid-row: 4;
+}
+
+#cotemig {
+    grid-row: 6;
+}
+
+}
