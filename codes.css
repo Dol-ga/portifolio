@@ -43,6 +43,10 @@
     
 }
 
+#footerGithub a {
+    color: var(--shadowColor);
+}
+
 @media screen and (max-width: 1055px) {
 
 #footerGithub { 
